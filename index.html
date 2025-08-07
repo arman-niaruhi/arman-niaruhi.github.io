@@ -6,68 +6,98 @@
   <title>Arman Niaruhi - Data Scientist</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: Georgia, 'Times New Roman', serif;
       margin: 0;
-      padding: 0 1.5rem;
-      background-color: #f8f9fa;
-      color: #212529;
-      line-height: 1.6;
+      padding: 0;
+      background-color: #fff;
+      color: #1a1a1a;
     }
 
-    header {
-      background-color: #343a40;
-      color: #ffffff;
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
       padding: 2rem 1.5rem;
       text-align: center;
     }
 
-    h1 {
-      margin-bottom: 0.2rem;
+    header {
+      background-color: #1a1a1a;
+      color: #ffffff;
+      padding: 3rem 1.5rem;
     }
 
-    .contact-info, .section {
+    h1 {
+      margin-bottom: 0.3rem;
+      font-size: 2.5rem;
+      font-weight: normal;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+
+    .contact-info {
       margin: 2rem 0;
+      font-size: 1rem;
+      color: #333;
     }
 
     .contact-info a {
-      display: inline-block;
-      margin-right: 1rem;
+      color: #1a1a1a;
       text-decoration: none;
-      color: #0077cc;
+      margin: 0 0.4rem;
+    }
+
+    .section {
+      margin: 3rem 0;
     }
 
     .section h2 {
-      border-bottom: 2px solid #0077cc;
-      padding-bottom: 0.3rem;
-      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      font-weight: normal;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.5rem;
+      display: inline-block;
     }
 
     .job-title {
       font-weight: bold;
+      margin-top: 1.5rem;
     }
 
     .employer {
       font-style: italic;
-      margin-bottom: 0.3rem;
+      margin: 0.3rem 0 0.5rem;
+      color: #555;
     }
 
     ul {
-      margin-top: 0.3rem;
-      margin-bottom: 1rem;
+      list-style: none;
+      padding-left: 0;
+      text-align: left;
+      margin: 0 auto;
+      max-width: 600px;
+    }
+
+    li {
+      margin: 0.3rem 0;
     }
 
     footer {
       text-align: center;
-      margin: 3rem 0 1rem;
+      margin: 4rem 0 2rem;
       font-size: 0.9rem;
-      color: #666;
+      color: #888;
     }
 
-    code {
-      background-color: #e9ecef;
-      padding: 0.2rem 0.4rem;
-      border-radius: 4px;
-      font-size: 0.95rem;
+    a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      line-height: 1.6;
     }
   </style>
 </head>
@@ -78,82 +108,78 @@
   <p>Data Scientist | University of Siegen</p>
 </header>
 
-<section class="contact-info">
-  <p>📍 Am Lohgraben 30, 57076 Siegen, Germany</p>
-  <p>📧 <a href="mailto:arman.niaruhi@gmail.com">arman.niaruhi@gmail.com</a></p>
-  <p>📞 +49 178 2898864</p>
-  <p>
-    🔗 <a href="https://linkedin.com/in/armanniaruhi2023" target="_blank">LinkedIn</a>
-    🔗 <a href="https://github.com/arman-niaruhi" target="_blank">GitHub</a>
-  </p>
-</section>
+<div class="container">
 
-<section class="section">
-  <h2>💼 Work Experience</h2>
+  <section class="contact-info">
+    <p>Am Lohgraben 30, 57076 Siegen, Germany</p>
+    <p><a href="mailto:arman.niaruhi@gmail.com">arman.niaruhi@gmail.com</a>
+    <p>
+      <a href="https://linkedin.com/in/armanniaruhi2023" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/arman-niaruhi" target="_blank">GitHub</a>
+    </p>
+  </section>
 
-  <div>
-    <p class="job-title">Working Student – Data Science</p>
-    <p class="employer">Chair of International Production Engineering and Management, University of Siegen</p>
-    <p>📅 December 2023 – Present</p>
+  <section class="section">
+    <h2>Work Experience</h2>
+
+    <div>
+      <p class="job-title">Working Student – Data Science</p>
+      <p class="employer">Chair of International Production Engineering and Management, University of Siegen</p>
+      <p>December 2023 – Present</p>
+      <ul>
+        <li>Development of ML/AI systems for real-time optimization</li>
+        <li>Creating digital twins to simulate production plants</li>
+        <li>Implementing system interfaces for data acquisition and processing</li>
+        <li>Contributing to research projects on digital factories</li>
+      </ul>
+      <p><strong>Technologies:</strong> Python, PyTorch, MLFlow, Stable-Baselines3, OPC UA, MQTT, Node-RED</p>
+    </div>
+
+    <div>
+      <p class="job-title">Working Student – Python Developer</p>
+      <p class="employer">Chair of Business Informatics and New Media, University of Siegen</p>
+      <p>December 2023 – April 2024</p>
+      <ul>
+        <li>Database design with PostgreSQL & MongoDB</li>
+        <li>Data engineering with Pandas</li>
+        <li>Sensor data processing via MQTT</li>
+        <li>Building a graph database for LLMs using RAG</li>
+      </ul>
+      <p><strong>Technologies:</strong> Python, Pandas, Postgres, MongoDB, Cypher, Docker</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Education</h2>
+
+    <div>
+      <p class="job-title">M.Sc. Computer Science</p>
+      <p class="employer">University of Siegen</p>
+      <p>October 2023 – Present | GPA: 1.3</p>
+    </div>
+
+    <div>
+      <p class="job-title">B.Sc. Computer Science</p>
+      <p class="employer">University of Siegen</p>
+      <p>2020 – 2023 | Grade: 2.3</p>
+      <p><strong>Thesis:</strong> Explorable CT Reconstruction Using Dictionary Learning</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Skills</h2>
     <ul>
-      <li>Development of ML/AI systems for real-time optimization</li>
-      <li>Creating digital twins to simulate production plants</li>
-      <li>Implementing system interfaces for data collection and processing</li>
-      <li>Contributing to research projects on digital factories</li>
+      <li><strong>Machine Learning:</strong> NumPy, SciPy, Scikit-Learn, Pandas, MLFlow</li>
+      <li><strong>Deep Learning:</strong> PyTorch, TensorFlow, Stable-Baselines3</li>
+      <li><strong>Computer Vision:</strong> OpenCV, TorchVision, DataLoader</li>
+      <li><strong>Graphics & Simulation:</strong> C++, OpenGL, Unity</li>
+      <li><strong>BI & Visualization:</strong> PowerBI, Matplotlib, Seaborn</li>
+      <li><strong>Databases:</strong> PostgreSQL, MongoDB, Neo4j (Cypher)</li>
+      <li><strong>Network Protocols:</strong> MQTT, OPC UA</li>
+      <li><strong>Tools:</strong> Docker, Git, Linux</li>
     </ul>
-    <p><strong>Technologies:</strong> Python, PyTorch, MLFlow, Stable-Baselines3, OPC UA, MQTT, Node-RED</p>
-  </div>
-
-  <div>
-    <p class="job-title">Working Student – Python Developer</p>
-    <p class="employer">Chair of Business Informatics and New Media, University of Siegen</p>
-    <p>📅 December 2023 – April 2024</p>
-    <ul>
-      <li>Database design with PostgreSQL & MongoDB</li>
-      <li>Data engineering with Pandas</li>
-      <li>Sensor data processing via MQTT</li>
-      <li>Building a graph database for LLMs using RAG</li>
-    </ul>
-    <p><strong>Technologies:</strong> Python, Pandas, Postgres, MongoDB, Cypher, Docker</p>
-  </div>
-</section>
-
-<section class="section">
-  <h2>🎓 Education</h2>
-  <div>
-    <p class="job-title">M.Sc. Computer Science</p>
-    <p class="employer">University of Siegen</p>
-    <p>📅 October 2023 – Present</p>
-    <p><strong>Current GPA:</strong> 1.3</p>
-  </div>
-
-  <div>
-    <p class="job-title">B.Sc. Computer Science</p>
-    <p class="employer">University of Siegen</p>
-    <p>📅 2020 – 2023</p>
-    <p><strong>Grade:</strong> 2.3</p>
-    <p><strong>Thesis:</strong> *Explorable CT Reconstruction Using Dictionary Learning*</p>
-  </div>
-</section>
-
-<section class="section">
-  <h2>🧠 Skills</h2>
-  <ul>
-    <li><strong>Machine Learning:</strong> NumPy, SciPy, Scikit-Learn, Pandas, MLFlow</li>
-    <li><strong>Deep Learning:</strong> PyTorch, TensorFlow, Stable-Baselines3</li>
-    <li><strong>Computer Vision:</strong> OpenCV, TorchVision, DataLoader</li>
-    <li><strong>Graphics & Simulation:</strong> C++, OpenGL, Unity</li>
-    <li><strong>Business Intelligence & Visualization:</strong> PowerBI, Matplotlib, Seaborn</li>
-    <li><strong>Databases:</strong> PostgreSQL, MongoDB, Neo4j (Cypher)</li>
-    <li><strong>Network Protocols:</strong> MQTT, OPC UA</li>
-    <li><strong>Tools:</strong> Docker, Git, Linux</li>
-  </ul>
-</section>
-
-<section class="section">
-  <h2>📅 Personal Info</h2>
-  <p>Born on November 21, 1993 in Iran</p>
-</section>
+  </section>
+</div>
 
 <footer>
   &copy; 2025 Arman Niaruhi — All rights reserved.
