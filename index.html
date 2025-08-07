@@ -17,11 +17,11 @@
       max-width: 800px;
       margin: 0 auto;
       padding: 2rem 1.5rem;
-      text-align: center;
+      text-align: center; /* keep headings centered */
     }
 
     .container p {
-      text-align: center;
+      text-align: center; /* paragraphs centered by default */
     }
 
     header {
@@ -61,6 +61,7 @@
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
       background-color: #fafafa;
+      text-align: justify; /* Make text inside sections justified */
     }
 
     .section h2 {
@@ -70,6 +71,7 @@
       padding-bottom: 0.4rem;
       margin-bottom: 1.5rem;
       display: inline-block;
+      text-align: left; /* Keep heading left-aligned */
     }
 
     .job-title {
@@ -83,8 +85,17 @@
       color: #555;
     }
 
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0 auto 1.5rem auto;
+      max-width: 600px;
+      text-align: justify; /* Justify list text */
+    }
+
     li {
       margin: 0.3rem 0;
+      text-align: justify; /* Justify each list item */
     }
 
     footer {
@@ -98,18 +109,12 @@
       text-decoration: underline;
     }
 
-    ul {
-      list-style: none;
-      padding-left: 0;
-      margin: 0 auto;
+    p {
+      line-height: 1.6;
+      text-align: justify; /* Justify paragraphs inside sections */
       max-width: 600px;
-      text-align: justify; /* newly added */
+      margin: 0 auto 1rem auto;
     }
-
-    .section p {
-      text-align: justify; /* optional, but improves consistency */
-    }
-
   </style>
 </head>
 <body>
@@ -150,7 +155,7 @@
       <p class="employer">Chair of Business Informatics and New Media, University of Siegen</p>
       <p>December 2023 – April 2024</p>
       <ul>
-        <li>Database design with PostgreSQL & MongoDB</li>
+        <li>Database design with PostgreSQL &amp; MongoDB</li>
         <li>Data engineering with Pandas</li>
         <li>Sensor data processing via MQTT</li>
         <li>Building a graph database for LLMs using RAG</li>
@@ -182,8 +187,8 @@
       <li><strong>Machine Learning:</strong> NumPy, SciPy, Scikit-Learn, Pandas, MLFlow</li>
       <li><strong>Deep Learning:</strong> PyTorch, TensorFlow, Stable-Baselines3</li>
       <li><strong>Computer Vision:</strong> OpenCV, TorchVision, DataLoader</li>
-      <li><strong>Graphics & Simulation:</strong> C++, OpenGL, Unity</li>
-      <li><strong>BI & Visualization:</strong> PowerBI, Matplotlib, Seaborn</li>
+      <li><strong>Graphics &amp; Simulation:</strong> C++, OpenGL, Unity</li>
+      <li><strong>BI &amp; Visualization:</strong> PowerBI, Matplotlib, Seaborn</li>
       <li><strong>Databases:</strong> PostgreSQL, MongoDB, Neo4j (Cypher)</li>
       <li><strong>Network Protocols:</strong> MQTT, OPC UA</li>
       <li><strong>Tools:</strong> Docker, Git, Linux</li>
